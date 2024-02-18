@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smart Ticket</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Ticket</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/bc933ffb51.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    .font {
+      font-family: Raleway;
+    }
+
+    .font2 {
+      font-family: Inter;
+    }
+  </style>
 </head>
 
 <body>
-
+  <header class="md:container md:mx-auto">
+    <section>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl">P-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn  bg-[#1DD1001A] w-32 h-12 rounded-xl"> <span class="text-[#1DD100] text-2xl">Bus</span> <img
+                src="images/bus-icon.png" alt=""></a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="container mx-auto">
+      <div class="bg-base-100 shadow-xl image-full">
+        <figure class="w-screen"><img src="images/banner.png" alt="" class="w-full p-4 lg:w-4/5"></figure>
+        <div class="text-center  lg:-mt-96">
+          <h2 class="font-extrabold	text-6xl text-[#ffff] ">End-to-End Travel with <br> <span class="text-[#1DD100]">P
+              Paribahan</span></h2>
+          <p class="text-xl font-normal text-[#ffff]">Yes, you can run unit tests and view the results directly within the app. The <br>
+            integrated testing features allow for a streamlined .</p>
+          <div class="card-actions justify-center">
+            <button class="btn bg-[#1DD100] w-auto h-12"><span class="font-bold">Buy Tickets</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
 </body>
 
 </html>
