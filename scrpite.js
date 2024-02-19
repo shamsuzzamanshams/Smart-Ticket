@@ -1,5 +1,5 @@
 let selectedSeatCount = 0;
-let availableSeatCount = 8;
+let availableSeatCount = 12;
 let totalPrice;
 let grandTotal;
 totalPrice = parseFloat(totalPrice);
